@@ -1,2 +1,2 @@
-# merk-minshun
-Markiplier's Mansion: Special Edition. Made for Pikakid98 Launcher: Special Edition (SE)
+# Markiplier's Mansion
+A version of my old Markiplier's Mansion fangame, but now with an extra twist. The game now takes place in a stupid gameshow called Girl Or Trap (Shut up)
