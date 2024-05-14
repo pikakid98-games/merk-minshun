@@ -1,0 +1,151 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Lol. No. Get your arse over there"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Lol. No. Get your arse over there"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Lol. No. Get your arse over there"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[27]My deepest apologies for my son's actions"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You seem rather young to be a mother"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[27]Around 523 if I had to guess"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You're a vampire?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[27]Indeed I am.\\| Humans tend to get the wrong idea about"])
+    ShowText(["us.\\| What with the blood sucking and all"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["I see.\\| Well I'm going home.\\| Make sure to give your"])
+    ShowText(["son a good slapping"])
+    ShowText([" "])
+    ShowText(["\\}\\C[17](Pikakid98 does not endorse slapping your kids.\\| Don't slap your damn kids)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[27]From what I have heard you have given him quite a"])
+    ShowText(["beating already"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["And if he pulls this shit again then I'll beat his"])
+    ShowText(["ass again"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[27]I am sure you will.\\| Move along now"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Right.\\| Thanks"])
+    FadeoutBGM([4])
+    SetMoveRoute([1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ScrollMap([8, 4, 4])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=3, @parameters=[])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[60])\", \"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[60])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[30])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=3, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[60])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[60])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[30])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ControlSwitches([5, 5, 0])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText(["\\{\\{\\{To Be Continued\\|\\|\\| ?\\|"])
+    ShowText(["\\}\\}Maybe.\\| Probably.\\| Possibly\\}\\}\\..\\..\\.. \\C[7]Unlikely"])
+    Wait([80])
+    Loop([])
+      ControlVariables([16, 16, 1, 0, 1])
+      Script(["DataManager.save_game(0)"])
+      ShowTextAttributes(["", 0, 1, 1])
+      ShowText(["You can close the game now"])
+      ConditionalBranch([1, 16, 0, 20, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["Why are you still here?\\|"])
+        ShowText(["I said.\\| You can close the game now"])
+        Empty([])
+      BranchEnd([])
+      ConditionalBranch([1, 16, 0, 40, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["You're really persistent, Aren't you?\\|"])
+        ShowText(["Close the damn game"])
+        Empty([])
+      BranchEnd([])
+      ConditionalBranch([1, 16, 0, 60, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["Seriously.\\| There's nothing else.\\|"])
+        ShowText(["Close\\.. The\\.. Fucking\\.. Game"])
+        Empty([])
+      BranchEnd([])
+      ConditionalBranch([1, 16, 0, 80, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["There's no hidden achievement or anything\\|"])
+        ShowText(["You're just wasting your time\\|"])
+        ShowText(["\\{CLOSE\\.. THE\\.. FUCKING\\.. GAAAMME!!"])
+        Empty([])
+      BranchEnd([])
+      ConditionalBranch([1, 16, 0, 100, 0])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["One more fucking click and I'm closing the game for"])
+        ShowText(["you.\\| You're really pissing me off now"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["For the last time\\|. Close.\\| The.\\| Game\\|\\| \\{NOW!!"])
+        Script(["SceneManager.exit"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    RepeatAbove([])
+    Empty([])

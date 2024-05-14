@@ -1,0 +1,92 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowPicture([1, "Chihiro Fujisaki", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Chihiro Fujisaki"])
+    ErasePicture([1])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You voted that \\C[17]Chihiro Fujisaki\\C[0] is \\C[23]Male"])
+    CallCommonEvent([1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Maybe you're not as dumb as you look\\|"])
+    ShowText(["Danganronpa uses this as a running gag\\|"])
+    ShowText(["There's even an entire murder mystery around him"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[7]\\}(Casual soda drinking sounds)"])
+    ControlSwitches([1, 1, 1])
+    Wait([60])
+    TransferPlayer([0, 15, 10, 18, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You voted that \\C[17]Chihiro Fujisaki\\C[0] is a \\C[27]Female"])
+    CallCommonEvent([2])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["I almost choked on my water\\|. You actually thought"])
+    ShowText(["he was a girl?\\|.. Yeah\\|.. Most of the Danganronpa"])
+    ShowText(["characters did too"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\{\\{P\\.E\\.N\\.I\\^"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Anyway\\|. Move on"])
+    ControlSwitches([1, 1, 1])
+    Wait([60])
+    TransferPlayer([0, 15, 10, 18, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ControlSwitches([1, 1, 0])
+    PlaySE(["RPG::SE(@name=\"Close3\", @pitch=100, @volume=80)"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[60])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[60])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    EraseEvent([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])

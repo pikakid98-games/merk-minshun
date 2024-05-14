@@ -1,0 +1,9 @@
+CommonEvent 2
+Name = "incorrect"
+
+  Wait([120])
+  ShowTextAttributes(["", 0, 1, 1])
+  ShowText(["You would be\\|\\..\\..\\.. \\{\\{\\{\\C[2]INCORRECT!!"])
+  PlaySE(["RPG::SE(@name=\"Disappointment\", @pitch=100, @volume=80)"])
+  Wait([40])
+  Empty([])

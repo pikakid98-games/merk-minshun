@@ -1,0 +1,126 @@
+MapInfo 1
+Name = ""
+
+MapInfo 2
+Name = ""
+
+MapInfo 3
+Name = "stage"
+
+MapInfo 4
+Name = "the world. stop time"
+
+MapInfo 5
+Name = "Waiting Room"
+
+MapInfo 6
+Name = "1"
+
+MapInfo 7
+Name = "2"
+
+MapInfo 8
+Name = "3"
+
+MapInfo 9
+Name = "4"
+
+MapInfo 10
+Name = "5"
+
+MapInfo 11
+Name = "[The Questions]"
+
+MapInfo 12
+Name = "6"
+
+MapInfo 13
+Name = "7"
+
+MapInfo 14
+Name = "8"
+
+MapInfo 15
+Name = "9"
+
+MapInfo 16
+Name = "10"
+
+MapInfo 17
+Name = "Waiting Room (Alt)"
+
+MapInfo 18
+Name = "Last Room"
+
+MapInfo 19
+Name = "Escape"
+
+MapInfo 20
+Name = "1 (Post-Escape)"
+
+MapInfo 21
+Name = "Escape 2"
+
+MapInfo 22
+Name = "Escape 3"
+
+MapInfo 23
+Name = "Corridor 2"
+
+MapInfo 24
+Name = "Backroom"
+
+MapInfo 25
+Name = "Last Room (Alt)"
+
+MapInfo 26
+Name = "Corridor"
+
+MapInfo 27
+Name = "Corridor 3"
+
+MapInfo 28
+Name = "Waiting Room (cs)"
+
+MapInfo 29
+Name = "Corridor 3a"
+
+MapInfo 30
+Name = "Corridor 3b"
+
+MapInfo 31
+Name = "Corridor 3c"
+
+MapInfo 32
+Name = "\"Throne\" Room"
+
+MapInfo 33
+Name = "Battle"
+
+MapInfo 34
+Name = "Leaving - \"Throne\" Room"
+
+MapInfo 35
+Name = "Leaving - Corridor 3c"
+
+MapInfo 36
+Name = "Leaving - Corridor 2"
+
+MapInfo 37
+Name = "Leaving - Corridor 3"
+
+MapInfo 38
+Name = "Leaving - Corridor"
+
+MapInfo 39
+Name = "Leaving - Last Room"
+
+MapInfo 40
+Name = "Leaving - Secret Room"
+
+MapInfo 41
+Name = "Leaving - Outside"
+
+MapInfo 42
+Name = "Leaving - Outside 2"
+

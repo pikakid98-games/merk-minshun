@@ -1,0 +1,41 @@
+CommonEvent 5
+Name = "Battle - Merk - Punch"
+
+  Loop([])
+    ConditionalBranch([1, 13, 0, 50, 4])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["Not enough MP"])
+      Empty([])
+
+    Else([])
+      ControlVariables([13, 13, 2, 0, 50])
+      ControlVariables([14, 14, 0, 2, 1, 10])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=14, @parameters=[0, -3])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=14, @parameters=[0, -3])"])
+      ShowAnimation([1, 1, true])
+      ConditionalBranch([1, 14, 0, 5, 0])
+        ControlVariables([12, 12, 2, 0, 90])
+        ShowTextAttributes(["", 0, 1, 0])
+        ShowText(["90 Damage!"])
+        ShowText(["CRITICAL HIT!!"])
+        Empty([])
+
+      Else([])
+        ControlVariables([12, 12, 2, 0, 50])
+        ShowTextAttributes(["", 0, 1, 0])
+        ShowText(["50 Damage!"])
+        Empty([])
+
+      BranchEnd([])
+      SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+      BreakLoop([])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  RepeatAbove([])
+  Empty([])

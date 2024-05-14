@@ -1,0 +1,87 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowPicture([1, "Aura Bella Fiora", 0, 0, 0, 0, 100, 100, 255, 0])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Aura Bella Fiora"])
+    ErasePicture([1])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You voted that \\C[17]Aura Bella Fiora\\C[0] is \\C[23]Male"])
+    CallCommonEvent([2])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Congrats, Dumbass. You got reverse trapped"])
+    ControlVariables([3, 3, 1, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["On\\|.. \\|On..\\| \\{OOOONNN!!!! \\|\\}\\}\\C[7](Sound of distant coughing)"])
+    ControlSwitches([1, 1, 1])
+    Wait([60])
+    TransferPlayer([0, 12, 10, 18, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You voted that \\C[17]Aura Bella Fiora\\C[0] is a \\C[27]Female"])
+    CallCommonEvent([1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Yeah\\|... This is a running joke in overlord"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Aaaand. We're off"])
+    ControlSwitches([1, 1, 1])
+    Wait([60])
+    TransferPlayer([0, 12, 10, 18, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    FadeinScreen([])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ControlSwitches([1, 1, 0])
+    PlaySE(["RPG::SE(@name=\"Close3\", @pitch=100, @volume=80)"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[60])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[60])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    EraseEvent([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])

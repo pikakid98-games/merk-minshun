@@ -1,0 +1,169 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Wait([60])
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 120, false])
+    ScrollMap([8, 6, 4])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["That show was a total disaster\\|... How the hell did"])
+    ShowText(["that idiot get all of the questions correct?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Well\\|. No matter.\\| He's trapped with the other"])
+    ShowText(["contestants"])
+    SetMoveRoute([11, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=2, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=2, @parameters=[])"])
+    ShotBalloonIcon([11, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["MASTER!!\\|... HUGE PROBLEM!!"])
+    ShotBalloonIcon([4, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Relax for a moment and explain calmly\\|"])
+    ShowText(["What's wrong?"])
+    ShotBalloonIcon([11, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["The contestants have all escaped"])
+    ShotBalloonIcon([4, 1, false])
+    ShakeScreen([5, 5, 60, false])
+    PlaySE(["RPG::SE(@name=\"Monster1\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\{\\{WHAT!?!?!?!\\|. HOW!?!?!"])
+    ShotBalloonIcon([11, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["I don't know.\\| But when I went to check the cell\\.. It"])
+    ShowText(["was completely empty"])
+    ShotBalloonIcon([4, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Did you notice anything suspicious about the"])
+    ShowText(["waiting room?"])
+    ShotBalloonIcon([11, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["There is a huge hole in the wall.\\| Likely some sort"])
+    ShowText(["of escape hole"])
+    ShotBalloonIcon([4, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["AS OPPOSED TO WHAT EXACTLY!?!?!\\|"])
+    ShowText(["GO AND GET THOSE CONTESTANTS BACK!!\\|"])
+    ShowText(["EVEN IF YOU HAVE TO BEAT THEM UP!!"])
+    ShotBalloonIcon([11, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Y\\.. Yes, master"])
+    CallCommonEvent([3])
+    ControlVariables([1, 1, 0, 0, 5])
+    ScrollMap([2, 4, 4])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=-68.0, @gray=0.0)", 120, false])
+    ScrollMap([2, 2, 4])
+    EraseEvent([])
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 19, 6, 1, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+  Page 1
+    Empty([])
+
+CommonEvent 4
+Name = "mainbad"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "bad1"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "bad2"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "bad3"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "bad4"
+
+  Page 0
+    Empty([])
+
+CommonEvent 9
+Name = "bad5"
+
+  Page 0
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ConditionalBranch([6, -1, 2])
+      ControlVariables([6, 6, 0, 0, 0])
+      PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+      TransferPlayer([0, 19, 6, 1, 0, 0])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+CommonEvent 11
+Name = "bad6"
+
+  Page 0
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 24, 2, 2, 8, 0])
+    Empty([])
+
+CommonEvent 13
+Name = "bad-a 1"
+
+  Page 0
+    Empty([])
+
+CommonEvent 14
+Name = "bad-a 2"
+
+  Page 0
+    Empty([])

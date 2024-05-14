@@ -1,0 +1,35 @@
+CommonEvent 7
+Name = "Battle - Merk - Super Hyper Marki-poof"
+
+  ConditionalBranch([1, 13, 0, 200, 4])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Not enough MP"])
+    Empty([])
+
+  Else([])
+    ControlVariables([13, 13, 2, 0, 200])
+    ControlVariables([14, 14, 0, 2, 1, 40])
+    PlaySE(["RPG::SE(@name=\"Barrier\", @pitch=100, @volume=85)"])
+    ShakeScreen([5, 5, 60, false])
+    TintScreen(["Tone(@red=34.0, @green=-34.0, @blue=-68.0, @gray=170.0)", 60, true])
+    PlaySE(["RPG::SE(@name=\"poof\", @pitch=100, @volume=100)"])
+    ShowAnimation([1, 57, false])
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 60, false])
+    ConditionalBranch([1, 14, 0, 20, 0])
+      ControlVariables([12, 12, 2, 0, 800])
+      ShowTextAttributes(["", 0, 1, 0])
+      ShowText(["800 Damage!"])
+      ShowText(["CRITICAL HIT!!"])
+      Empty([])
+
+    Else([])
+      ControlVariables([12, 12, 2, 0, 400])
+      ShowTextAttributes(["", 0, 1, 0])
+      ShowText(["400 Damage!"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])
