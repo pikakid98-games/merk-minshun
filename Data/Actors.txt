@@ -1,8 +1,0 @@
-Actor 1
-Nickname = "Merk-ee-Pliyer"
-Character Name = "d8drdnu-159ae1f1-2367-4274-83b5-041d3ab4e567"
-Face Name = ""
-Name = "Merk"
-Description = ""
-Note = ""
-
